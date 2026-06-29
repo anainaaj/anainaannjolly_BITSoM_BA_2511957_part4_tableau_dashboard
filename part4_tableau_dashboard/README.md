@@ -1,4 +1,4 @@
-# Retail Executive Dashboard – Assumptions
+# Part 4 - Tablue Executive Dashboard & Data Storytelling
 
 ## Dataset
 Source file: dashboard_sales_data.xlsx
@@ -172,7 +172,7 @@ Return risk evaluation.
 - Category
 - Customer Segment
 - Ship Mode
-- Campaign Channel
+
 
 Filters were configured to apply across all worksheets.
 
@@ -265,10 +265,29 @@ Leadership should prioritize profitable growth instead of maximizing sales alone
 # Tools Used
 
 - Tableau Desktop
-- Microsoft Excel
 
 ---
 
 # Project Outcome
 
 A single executive dashboard was created to help leadership monitor performance, identify operational risks, and support strategic decision-making using interactive business analytics.
+
+# Repository 
+```
+part4_tableau_dashboard/
+├── data/
+│   └── dashboard_sales_data.xlsx
+├── tableau/
+│   └── executive_dashboard.twbx
+├── outputs/
+│   ├── dashboard_story.md
+│   ├── business_insights.md
+│   └── chart_selection_justification.md
+├── screenshots/
+│   ├── full_dashboard.png
+│   ├── sales_trend_view.png
+│   ├── regional_performance_view.png
+│   ├── category_profitability_view.png
+│   └── filter_interaction_view.png
+└── README.md
+```
